@@ -60,7 +60,7 @@ class Deque:
 # # teste do programa
 deque = Deque()
 
-print("deque incial: ", deque)
+print("deque inicial: ", deque)
 
 deque.insert_first(10)
 deque.insert_last(20)
