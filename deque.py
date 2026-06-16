@@ -16,18 +16,18 @@ class Deque:
 
     def insert_first(self, valor: Any) -> None:
         self.__data.insert(0, valor)
-        print("item inserido no inicio:", valor)
+        print("item inserido no inicio: ", valor)
 
     def insert_last(self, valor: Any) -> None:
         self.__data.append(valor)
-        print("item inserido no fim:", valor)
+        print("item inserido no fim: ", valor)
 
     def remove_first(self) -> Any:
         if self.is_empty():
             print("deque vazio, nao foi possivel remover do inicio")
         else:
             item = self.__data.pop(0)
-            print("item removido do inicio:", item)
+            print("item removido do inicio: ", item)
             return item
 
     def remove_last(self) -> Any:
@@ -35,7 +35,7 @@ class Deque:
             print("deque vazio, nao foi possivel remover do fim")
         else:
             item = self.__data.pop()
-            print("item removido do fim: ", item)
+            print("item removido do fim : ", item)
             return item
 
     def first(self) -> Any:
